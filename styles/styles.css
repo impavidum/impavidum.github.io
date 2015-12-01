@@ -1,7 +1,7 @@
 body {
    margin: 0;
    background-image: url('images/myWall.png');
-   background-size: auto;
+   background-size: contain;
 }
 
 #loading {
