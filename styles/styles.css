@@ -5,6 +5,7 @@ body {
 }
 
 #loading {
+   color: white;
    position: fixed;
    top: 50%;
    left: 50%;
