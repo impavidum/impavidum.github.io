@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+  <canvas id="my-canvas"></canvas>
+  <div id="mute" class="unmuted"></div>
+  <div id="pause" class="unpaused"></div>
+  <div id="info"></div>
+  <div id="menu-parent">
+    <div id="menu">
+      <span id="top">&nbsp</span>
+      <span id="middle">&nbsp</span>
+      <span id="bottom">&nbsp</span>
+    </div>
+  </div>
+  <div id="pause-modal"></div>
+  <div id="game-over-modal"></div>
+  <div id="game-win-modal"></div>
+  <div id="play-parent">
+    <button id="play">
+      <span>Play</span>
+    </button>
+  </div>
+  <div id="play-again-parent">
+    <button id="play-again">
+      <span>Play Again</span>
+    </button>
+  </div>
+  <div id="star">
+    <img src="images/Star.GIF">
+  </div>
+
+  <!-- Core -->
+  <script src="scripts/core.js"></script>
+
+  <!-- Modules -->
+  <script src="scripts/modules/ghosts.js"></script>
+  <script src="scripts/modules/mario.js"></script>
+  <script src="scripts/modules/menu.js"></script>
+
+  <!-- Services -->
+  <script src="scripts/services/players.js"></script>
+  <script src="scripts/services/clone.js"></script>
+  <script src="scripts/services/audio.js"></script>
+  <script src="scripts/services/move.js"></script>
+
+  <!-- GameLoop -->
+  <script src="scripts/gameLoop.js"></script>
+</body>
+
+</html>
